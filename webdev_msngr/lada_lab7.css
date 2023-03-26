@@ -1,0 +1,83 @@
+body{
+    justify-content: center;
+    font-family:'Segoe UI';
+    font-size: 1em;
+    background-color :blanchedalmond
+}
+
+/* divs */
+.main{
+    margin:auto;
+    display: flex;
+    border-radius : 5px;
+    width : 800px;
+    flex-flow: column nowrap;
+    align-items: center;
+    background-color :darkseagreen;
+    padding: 20px;
+}
+
+.text_input{
+    display: flex;
+    width: 100%;
+    padding-top: 15px;
+    padding-bottom : 15px;
+    border-radius : 0px 0px 9px 9px;
+    justify-content: center;
+    background-color:darkkhaki ; 
+    gap: 10px;
+    flex-flow: row nowrap;
+}
+
+.client_name{
+    border-radius: 9px 9px 0px 0px;
+    width : 100%;
+    background-color: darkkhaki;
+    align-self:flex-start
+}
+
+/* client name */
+.client{
+    margin-left: 30px;
+}
+
+/* textfield */
+
+.textbox_output{
+    display : flex;
+    background-color :darkolivegreen;
+    border-left: 20px solid darkkhaki;
+    border-right: 20px solid darkkhaki;
+    box-sizing : border-box;
+    justify-content: center;
+    width : 100%;
+    padding-top : 5%;
+    padding-bottom : 5%;
+}
+
+.text_output{
+    resize: none;
+    line-height: 20px;
+    font-size: 14px;
+    padding-top : 10px;
+    padding-left: 10px;
+    background-color:antiquewhite;
+    height : 300px;
+    width : 90%;
+}
+
+/* input boxes */
+
+#input_message{
+    border: 2px solid darkolivegreen;
+    border-radius : 4px;
+    background-color: antiquewhite;
+    font-size: 16px;
+    padding-left: 10px;
+    width : 50%;
+    height : 40px;
+}
+
+#send_message, #clear_message{
+    width: 20%;
+}
