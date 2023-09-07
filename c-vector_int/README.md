@@ -1,6 +1,6 @@
 # C vector<int> implementation
 
-![VECTOR](https://github.com/44mira/el-codes/assets/116419708/2c7d7f19-9ac8-4171-a96b-f9b460a98c99 | width = 100)
+![VECTOR](https://github.com/44mira/el-codes/assets/116419708/2c7d7f19-9ac8-4171-a96b-f9b460a98c99)
 
 I did this because I really wanted to code *SOMETHING* in C. 
 
