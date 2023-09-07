@@ -12,6 +12,12 @@ Overall, this little side-project :
 ## FUNCTION SIGNATURES IN vector.h
 
 ```c
+  typedef struct {
+    int *get; 
+    size_t size;
+    size_t max_size;
+  } vec_int;
+
   // vec constructor
   vec_int* Vec_int_new();
   
