@@ -246,11 +246,8 @@ void erase(vec_int* v, size_t i) {
     int *p = v->get;
     int j = 0;
 
-    while (j < i) {             // point to index i
-        j++;
-        p++;
-    }
-
+    p += j = i - 1;             // point to index i
+    
     // shift back all elements after p by 1 index, iterates size-1 times
     while (j++ < v->size) {       
         *p = *(p+1);
@@ -275,10 +272,7 @@ void insert(vec_int* v, int n, size_t i) {
     int *p = v->get;
     int temp, j = 0;            // temp is used for swapping
 
-    while (j < i) {             // point to index i
-        j++;
-        p++;
-    }
+    p += j = i - 1;             // point to index i
 
     while (j < v->size) {       // iteratively insert and swap
         swap(p, &n);
